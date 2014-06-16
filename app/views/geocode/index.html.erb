@@ -2,4 +2,5 @@
 <ul>
   <li>request.remote_ip <%= request.remote_ip %></li>
   <li>ENV['HTTP_X_FORWARDED_FOR'] <%= ENV['X_FORWARDED_FOR'] %></li>
+  <%= debug request %>
 </ul>
