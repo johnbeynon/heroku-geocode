@@ -1,5 +1,5 @@
-]<h1>Geocoder Demo</h1>
+<h1>Geocoder Demo</h1>
 <ul>
   <li>request.remote_ip <%= request.remote_ip %></li>
-  <li>request.HTTP_X_FORWARDED_FOR <%= request.HTTP_X_FORWARDED_FOR %></li>
+  <li>request.env['HTTP_X_FORWARDED_FOR'] <%= request.env['HTTP_X_FORWARDED_FOR'] %></li>
 </ul>
